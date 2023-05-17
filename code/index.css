@@ -14,7 +14,7 @@ body{
     grid-gap: 10px;
     max-width: fit-content;
     margin: 0 auto;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 550px;
 }
 
@@ -24,7 +24,7 @@ grid-column-end: 5;
 grid-row-start: 1;
 grid-row-end: 4;
 width: 500px;
- border: 2px solid blue;
+ /* border: 2px solid blue; */
 }
 .head-img{
     width: 800px;
@@ -37,7 +37,7 @@ grid-row-start: 1;
 grid-row-end: 5;
 background-color: #00001a;
 width: 300px;
-margin-left: 40px;
+/* margin-left: 40px; */
 color: #ffffff;
 height: 500px;
 border: 2px solid purple;
@@ -74,7 +74,7 @@ h6:hover{
     grid-column-end: 5;
     width: 800px;
     /* margin-top: -50px; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
 }
 .three{
@@ -84,7 +84,7 @@ h6:hover{
     height: 220px;
 }
 .first-col{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 350px;
   
 }
@@ -95,7 +95,7 @@ h6:hover{
   
 }
 .second-col{
-    border: 2px solid peru;
+    /* border: 2px solid peru; */
     color: #5d5f79;
     line-height:25px;
     font-size: 18px;
@@ -123,11 +123,11 @@ button:hover{
     justify-content: space-between;
     width: 1150px;
     height: 150px;
-    border: 2px solid #00001a;
+    /* border: 2px solid #00001a; */
 }
 #items-4{
     display: flex;
-    border: 2px solid #00001a;
+    /* border: 2px solid #00001a; */
     width: 500px;
 }
 .img-1{
@@ -173,7 +173,7 @@ body{
     grid-gap: 10px;
     /* max-width: fit-content;
     margin: 0 auto; */
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 500px;
 }
 
@@ -183,7 +183,7 @@ body{
     grid-row-start: 1;
     grid-row-end: 2;
     width: 200px;
-     border: 2px solid blue;
+     /* border: 2px solid blue; */
     }
     .head-img{
         width: 300px;
@@ -202,7 +202,7 @@ body{
         height: 130px;
     }
     .first-col{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 200px;
       
     }
@@ -224,10 +224,10 @@ body{
         grid-row-end: 7;
         background-color: #00001a;
         width: 300px;
-        margin-left: 40px;
+        /* margin-left: 40px; */
         color: #ffffff;
         height: 500px;
-        border: 2px solid purple;
+        /* border: 2px solid purple; */
         
         }
         .footer{
@@ -236,11 +236,11 @@ body{
             width: 150px;
             margin-top: 700px;
             height: 150px;
-            border: 2px solid #00001a;
+            /* border: 2px solid #00001a; */
         }
         #items-4{
             display: flex;
-            border: 2px solid #00001a;
+            /* border: 2px solid #00001a; */
             width: 200px;
         }
 }
@@ -255,7 +255,7 @@ body{
         grid-row-start: 1;
         grid-row-end: 2;
         width: 200px;
-         border: 2px solid blue;
+         /* border: 2px solid blue; */
         }
         .head-img{
             width: 400px;
@@ -276,7 +276,7 @@ body{
             height: 130px;
         }
         .first-col{
-            border: 2px solid red;
+            /* border: 2px solid red; */
             width: 200px;
           
         }
@@ -304,7 +304,7 @@ body{
             margin-right: 20px;
             color: #ffffff;
             height: 550px;
-            border: 2px solid purple;
+            /* border: 2px solid purple; */
             
             }
             .footer{
@@ -313,19 +313,20 @@ body{
                 width: 150px;
                 margin-top: 700px;
                 height: 150px;
-                border: 2px solid #00001a;
+                /* border: 2px solid #00001a; */
+                margin-left: 30px;
             }
             #items-4{
                 display: flex;
-                border: 2px solid #00001a;
-                width: 200px;
+                /* border: 2px solid #00001a; */
+                width: 280px;
                 margin-bottom: 20px;
             }
 }
-@media screen and (max-width: 1200px) and (min-width: 480px ) {
+@media screen and (max-width: 510px) and (min-width: 480px ) {
     #grid-container{
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 0px;
+        margin-right: 10px;
     }
     #items-1{
         grid-column-start: 1;
@@ -333,10 +334,15 @@ body{
         grid-row-start: 1;
         grid-row-end: 2;
         width: 400px;
-         border: 2px solid blue;
+         /* border: 2px solid blue; */
+        }
+        #items-2{
+            margin-left: 0px;
+            margin-top: 90px;
+            width: 400px ;
         }
         .head-img{
-            width: 530px;
+            width: 430px;
             height: 330px;
           
         }   
@@ -349,4 +355,68 @@ body{
         margin-bottom: 20px;
           
         }
+}
+@media screen and (max-width: 510px) and (min-width: 480px ) {
+    #grid-container{
+       display: grid;
+       place-content: center;
+    }
+    #items-2{
+        margin-left: 0px !important;
+        width: 400px;
+    }
+    .footer{
+        margin-top: 600px;
+    }
+    #items-4{
+        width: 400px;
+    }
+
+}
+@media screen and (max-width: 720px) and (min-width: 510px ) {
+    #grid-container{
+        margin-left: 0px;
+        margin-right: 10px;
+    }   
+    /* /* #items-1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        width: 400px;
+        border: 2px solid blue; 
+        } */
+        #items-2{
+            margin-left: 0px;
+            margin-top: 160px;
+            width: 400px ;
+        }
+        .head-img{
+            width: 430px;
+            height: 330px;
+          
+        }   
+        .first-col > h2{
+            font-weight: 700;
+            font-size: 50px;
+        line-height: 43px;
+        width: 430px;
+        margin-top: 120px;
+        margin-bottom: 20px;
+          
+        } 
+        .second-col{
+            margin-bottom: 20px;
+        }
+        .second-col p{
+            font-size: 23px;
+            width: 430px;
+            line-height: 33px;
+        }
+        .footer{
+            margin-top: 750px;
+        }
+        #items-4{
+        width: 400px;
+    }
 }
