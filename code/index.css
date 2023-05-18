@@ -255,6 +255,7 @@ button:hover{
     justify-content: space-between;
     width: 1150px;
     height: 150px;
+    margin-left: 40px;
     /* border: 2px solid #00001a; */
 }
 #items-4{
